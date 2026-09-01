@@ -274,7 +274,7 @@ def to_state_abbr(value):
 header_left, header_right = st.columns([4, 1])
 with header_left:
     st.title("US Private Companies Growth × Industry Risk")
-    st.caption("efield Solutions research dashboard inspired by the US Equity Market bivariate analysis")
+    st.caption("efield Solutions research dashboard inspired by the US Equity Market bivariate analysis by sector")
 with header_right:
     logo_path = Path("assets/logo.png")
     if logo_path.exists():
@@ -498,7 +498,7 @@ with st.expander("📈 Beyond the free view"):
     **Currently available:** 2019 and 2023 Inc. 5000 cohorts mapped to Damodaran industry betas, free to explore.
 
     **On the roadmap:**
-    - **Additional historical years** (2015–2022) — available as single-year reports (**$69/year**) 
+    - **Additional historical years** (2015–2022) — available as single-year pdf reports (**$69/year**) 
     - **Full industry coverage** — closing current gaps in Legal, Automotive, Consumer Products, and E-Commerce
     - **Custom crosswalk requests** — need an industry mapped that isn't here? Bespoke crosswalks starting at **$500**
 
